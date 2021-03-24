@@ -12,7 +12,7 @@ export default function Form(props) {
 
     // let urlData = data.results.map(data => data);
     props.updateResults(data, headers);
-  };
+  }
   
   return (
     <section>

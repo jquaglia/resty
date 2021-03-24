@@ -63,6 +63,9 @@ Application Flow:
 
 - [Helpful styling guide](https://stackoverflow.com/questions/7642277/css-styled-a-checkbox-to-look-like-a-button-is-there-a-hover)
 
+UML
+![UML diagram](./assets/UML.png)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
