@@ -1,8 +1,12 @@
-# LAB - Component Based UI
+# LAB - Props and State
 
 ## Author: Jason Quaglia
 
 [Link to PR](https://github.com/jquaglia/resty/pull/1)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/db7f5557-744f-4042-80af-11b360881952/deploy-status)](https://app.netlify.com/sites/inspiring-shaw-a599a9/deploys)
+
+[Link to Deployed App](https://inspiring-shaw-a599a9.netlify.app/)
 
 ## RESTy Phase 1:
 
@@ -28,6 +32,24 @@ And as developers, here are the high level development tasks that address the ab
 - Create buttons that let the user choose from the REST methods (get, post, put, delete)
 
 When the form is filled out, and the button is clicked, display the URL and the method chosen
+
+## RESTy Phase 2:
+
+Phase 2 Requirements
+In phase 2, we will be connecting RESTy to live APIs, fetching and displaying remote data. Our primary focus will be to service GET requests
+
+The following user stories detail the major functionality for this phase of the project.
+
+- As a user, I want to enter the URL to an API and issue a GET request so that I can retrieve it’s data
+- As a user, I want to see the results returned from an API request in my browser in a readable format
+Application Flow:
+
+- User enters an API URL
+- Chooses a REST Method
+- Clicks the “Go” button
+- Application fetches data from the URL given, with the method specified
+- Displays the response headers and results separately
+- Both headers and results should be “pretty printed” JSON
 
 ## Collaborators
 
@@ -111,5 +133,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
