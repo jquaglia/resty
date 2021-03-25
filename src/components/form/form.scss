@@ -4,11 +4,11 @@ form {
 }
 
 div label input {
-  margin-right:100px;
+  margin-right: 100px;
 }
 
 body {
-   font-family:sans-serif;
+   font-family: sans-serif;
 }
 
 p {
@@ -17,12 +17,12 @@ p {
 
 .ck-button {
   display: inline-block;
-   margin:4px;
+   margin: 4px;
    width: 75px;
    background-color:#CCCCCC;
-   border-radius:4px;
-   border:1px solid #D0D0D0;
-   overflow:auto;
+   border-radius: 4px;
+   border: 1px solid #D0D0D0;
+   overflow: auto;
 }
 
 .ck-button label {
@@ -30,16 +30,16 @@ p {
 }
 
 .ck-button label span {
-   text-align:center;
-   padding:3px 0px;
-   display:block;
+   text-align: center;
+   padding: 3px 0px;
+   display: block;
 }
 
 .ck-button label input {
-   position:absolute;
-   top:-20px;
+   position: absolute;
+   top: -20px;
 }
 
 .ck-button input:checked + span {
-   background-color:#FFFFFF;
+   background-color: #FFFFFF;
 }

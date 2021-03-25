@@ -5,3 +5,16 @@
   width: 960px;
   margin: auto;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 50% 50%;
+:nth-child(2){
+  grid-column: 2 / 4;
+}
+}
+
+main:first-child {
+grid-column: 1;
+}
