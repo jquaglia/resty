@@ -2,7 +2,7 @@
 
 ## Author: Jason Quaglia
 
-[Link to PR](https://github.com/jquaglia/resty/pull/1)
+[Link to PR](https://github.com/jquaglia/resty/pull/6)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/db7f5557-744f-4042-80af-11b360881952/deploy-status)](https://app.netlify.com/sites/inspiring-shaw-a599a9/deploys)
 
