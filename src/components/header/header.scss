@@ -1,10 +1,24 @@
 
 .App-header {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 25% 75%;
   background-color: #363636;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  div {
+    grid-row: 2;
+    .Nav {
+      color: aliceblue;
+      text-decoration: none;
+    }
+  }
 }
 
 h1 {
   color: #F0F0F0;
+  grid-column: 1;
 }
